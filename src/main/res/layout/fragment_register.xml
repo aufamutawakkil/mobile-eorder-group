@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.antargroup.tubanantar.page.Register"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icon_camera"
+        android:id="@+id/imageButton"
+        android:background="@null"
+        android:layout_width="100dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:text="Jenis Kelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/rb_laki"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:text="Laki - laki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_laki"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Perempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_perempuan"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Nomor HP"
+        android:ems="10"
+        android:id="@+id/et_nomor"
+        android:background="@color/white"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:text="Alamat"
+        android:ems="10"
+        android:id="@+id/et_alamat"
+        android:background="@color/white"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:id="@+id/btn_register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/base_button"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/text2" />
+</LinearLayout>

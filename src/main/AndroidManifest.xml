@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.antargroup.tubanantar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity android:name=".Activation" />
+        <activity android:name=".adapter.AdapterMainMenu" />
+        <activity android:name=".page.OrderOjek" />
+        <activity android:name=".page.Login" />
+        <activity android:name=".page.Register" />
+        <activity android:name=".page.OrderOjekDetail" />
+        <activity android:name=".page.AcceptingDriver"></activity>
+    </application>
+
+</manifest>

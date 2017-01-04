@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_adapter_mainmenu"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.antargroup.tubanantar.adapter.AdapterMainMenu"
+    android:background="@drawable/bg_shadow">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/layanan_gojek"
+            android:id="@+id/icon"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:text="Ojek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_alignBottom="@+id/icon"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_marginLeft="30dp"
+            android:textSize="24sp"
+            android:layout_gravity="center" />
+    </GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="topInfoBar">#0277bd</color>
+    <color name="background">#f8f8f8</color>
+    <color name="baseColor">#fcca04</color>
+    <color name="baseColor2">#ffcc01</color>
+    <color name="text1">#a1a1a1</color>
+    <color name="text2">#333333</color>
+    <color name="tab">#4d4d4d</color>
+    <color name="listKlinikTitle">#4d4d4d</color>
+    <color name="listKlinikSubtitle">#9a9a9a</color>
+    <color name="yesButton">#49ac07</color>
+    <color name="noButton">#ff3030</color>
+    <color name="second_grey">#e5e5e5</color>
+    <color name="white">#ffffffff</color>
+    <color name="card_shadow">#8c666666</color>
+    <color name="tabRiwayat">#fd770f</color>
+</resources>
