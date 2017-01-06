@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
     android:id="@+id/fragment_register"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +14,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.antargroup.tubanantar.page.Register"
+    tools:context="com.antargroup.tubanantar.pager.Register"
     android:orientation="vertical">
 
     <ImageButton
@@ -36,7 +41,9 @@
         android:text="Jenis Kelamin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text2" />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -71,13 +78,14 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:inputType="textMultiLine"
         android:text="Alamat"
         android:ems="10"
         android:id="@+id/et_alamat"
         android:background="@color/white"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp" />
 
     <Button
         android:layout_width="fill_parent"
@@ -89,5 +97,7 @@
         android:background="@drawable/base_button"
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
-        android:textColor="@color/text2" />
+        android:textColor="@color/text2"
+        android:layout_marginTop="20dp" />
 </LinearLayout>
+</ScrollView>

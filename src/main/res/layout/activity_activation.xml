@@ -104,7 +104,7 @@
             android:layout_marginTop="20dp" />
 
         <TextView
-            android:text="Generate ulang kata sandi"
+            android:text="Klik jika tidak menerima kata sandi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button_generate"

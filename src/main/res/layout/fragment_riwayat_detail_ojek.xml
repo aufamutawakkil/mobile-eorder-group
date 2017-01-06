@@ -45,7 +45,7 @@
                 android:id="@+id/lay">
 
                 <TextView
-                    android:text="Jl. Margomulo 26 Surabaya"
+                    android:text="Jl. Margomuyo selatan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView6"
@@ -53,22 +53,22 @@
                     android:textColor="@color/text2" />
 
                 <TextView
-                    android:text="Pinggi jalan menggunakan topi hitam"
+                    android:text="Kerudung hitam"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView5" />
 
                 <TextView
+                    android:text="Jl. Malanging No 43"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView4"
                     android:textSize="18sp"
                     android:layout_marginTop="10dp"
-                    android:textColor="@color/text2"
-                    android:text="Jl. Wahidin S" />
+                    android:textColor="@color/text2" />
 
                 <TextView
-                    android:text="Taman depan gedung"
+                    android:text="Toko Toserba"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView3" />
@@ -118,7 +118,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/lay_kilometer">
+                android:layout_below="@+id/lay_kilometer"
+                android:id="@+id/lay_harga">
 
                 <TextView
                     android:text="Total Harga"
@@ -135,38 +136,54 @@
                     android:layout_alignParentRight="true" />
             </RelativeLayout>
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lay_harga">
+
+                <TextView
+                    android:text="Di Bayar menggunakan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView27"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:text="Cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView29"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:padding="10dp"
-            android:background="@color/white">
+            android:background="@color/white"
+            android:layout_marginTop="15dp">
 
             <TextView
-                android:text="Bayar Menggunakan"
+                android:text="Status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView12"
+                android:id="@+id/textView31"
                 android:textStyle="normal|bold"
                 android:textColor="@color/text2"
                 android:layout_marginBottom="10dp" />
 
-            <Spinner
+            <TextView
+                android:text="Progress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textView12"/>
+                android:id="@+id/textView32"
+                android:layout_below="@+id/textView31"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@color/tabRiwayat" />
         </RelativeLayout>
-
-        <Button
-            android:text="PESAN"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button"
-            android:background="@drawable/base_button"
-            android:textColor="@color/text2"
-            android:layout_marginTop="15dp" />
 
 
     </LinearLayout>

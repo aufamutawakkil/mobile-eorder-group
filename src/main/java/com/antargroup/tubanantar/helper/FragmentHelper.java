@@ -1,5 +1,7 @@
 package com.antargroup.tubanantar.helper;
 
+import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -26,7 +28,8 @@ public class FragmentHelper extends Fragment {
 
     }
 
-    public ActionBar getActionBar() {
-        return ((ActionBarActivity) getActivity()).getSupportActionBar();
+    public ActionBar getActionBar(ActionBarActivity actionBar) {
+        //return ((ActionBarActivity) getActivity()).getSupportActionBar();
+        return ( (actionBar) getActivity()).getSupportActionBar();
     }
 }

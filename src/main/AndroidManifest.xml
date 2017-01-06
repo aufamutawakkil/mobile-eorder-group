@@ -20,11 +20,24 @@
             android:theme="@style/AppThemeNoActionBar" />
         <activity android:name=".Activation" />
         <activity android:name=".adapter.AdapterMainMenu" />
-        <activity android:name=".page.OrderOjek" />
-        <activity android:name=".page.Login" />
-        <activity android:name=".page.Register" />
-        <activity android:name=".page.OrderOjekDetail" />
-        <activity android:name=".page.AcceptingDriver"></activity>
+        <activity android:name=".pager.OrderOjek" />
+        <activity android:name=".pager.Login" />
+        <activity android:name=".pager.Register" />
+        <activity android:name=".pager.OrderOjekDetail" />
+        <activity android:name=".pager.AcceptingDriver" />
+        <activity android:name=".pager.Restaurant" />
+        <activity android:name=".pager.MenuResto" />
+        <activity android:name=".pager.foodResto" />
+        <activity android:name=".pager.OrderFood" />
+        <activity android:name=".pager.Riwayat" />
+        <activity android:name=".adapter.AdapterRiwayat" />
+        <activity android:name=".pager.RiwayatDetailOjek" />
+        <activity android:name=".pager.Saldo" />
+        <activity android:name=".pager.Topup" />
+        <activity android:name=".pager.Setting" />
+        <activity android:name=".adapter.AdapterSetting" />
+        <activity android:name=".pager.RiwayatProgress" />
+        <activity android:name=".pager.RiwayatSelesai"></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,5 @@
-package com.antargroup.tubanantar.page;
+package com.antargroup.tubanantar.pager;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,18 +10,18 @@ import android.widget.Button;
 import com.antargroup.tubanantar.R;
 import com.antargroup.tubanantar.helper.FragmentHelper;
 
-public class OrderOjek extends Fragment {
+public class Login extends Fragment {
 
-    Button btnOrder;
+    Button btnLogin;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_order_ojek, container, false);
+        View v = inflater.inflate(R.layout.fragment_login, container, false);
         FragmentHelper frg = new FragmentHelper();
-        frg.getActionBar().setTitle("Order Ojek");
+        frg.getActionBar().setTitle("Login");
 
-        btnOrder = (Button) v.findViewById(R.id.btn_order);
-        btnOrder.setOnClickListener(new View.OnClickListener() {
+        btnLogin = (Button) v.findViewById(R.id.btn_login);
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

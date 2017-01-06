@@ -1,15 +1,13 @@
-package com.antargroup.tubanantar;
+package com.antargroup.tubanantar.pager;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.antargroup.tubanantar.page.Mainmenu;
-
-public class PageAdapter extends FragmentStatePagerAdapter {
+public class RiwayatPagerAdapter extends FragmentStatePagerAdapter {
     int mNumOfTabs;
 
-    public PageAdapter(FragmentManager fm, int NumOfTabs) {
+    public RiwayatPagerAdapter(FragmentManager fm, int NumOfTabs) {
         super(fm);
         this.mNumOfTabs = NumOfTabs;
     }
@@ -21,6 +19,9 @@ public class PageAdapter extends FragmentStatePagerAdapter {
             case 0:
                 Mainmenu tabMainMenu = new Mainmenu();
                 return tabMainMenu;
+            case 1:
+                Mainmenu tabMainMenu1 = new Mainmenu();
+                return tabMainMenu1;
             default:
                 return null;
         }

@@ -14,14 +14,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.antargroup.tubanantar.page.OrderOjek"
-    android:background="@color/second_grey">
+    tools:context="com.antargroup.tubanantar.pager.OrderOjek"
+    android:background="@color/background">
 
     <TextView
         android:text="From"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:textStyle="normal|bold" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -47,7 +48,6 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:minHeight="40dp"
         android:inputType="textMultiLine"
         android:id="@+id/alamat_ket_lain_from"
@@ -56,7 +56,9 @@
         android:padding="10dp"
         android:layout_below="@+id/alamat_from"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp" />
 
     <TextView
         android:text="To"
@@ -64,7 +66,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textViewTo"
         android:layout_below="@+id/alamat_ket_lain_from"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -89,7 +93,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:minHeight="40dp"
         android:inputType="textMultiLine"
         android:id="@+id/alamat_ket_lain_to"
@@ -98,7 +102,8 @@
         android:padding="10dp"
         android:layout_below="@+id/alamat_to"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
 
     <Button
         android:layout_width="match_parent"

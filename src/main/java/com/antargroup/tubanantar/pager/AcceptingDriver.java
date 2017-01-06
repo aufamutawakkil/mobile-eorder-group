@@ -1,4 +1,4 @@
-package com.antargroup.tubanantar.page;
+package com.antargroup.tubanantar.pager;
 
 import android.app.Activity;
 import android.os.Bundle;
